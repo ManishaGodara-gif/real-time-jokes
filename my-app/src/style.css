@@ -1,0 +1,62 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #007991, #78ffd6);
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 500px;
+    margin: 100px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Header */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Fact Card */
+  .fact-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .fact-card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Button */
+  .fetch-button {
+    background-color: #007991;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .fetch-button:hover {
+    background-color: #005f73;
+  }
+  
+  .loading-text {
+    font-style: italic;
+    color: gray;
+  }
+  
